@@ -21,7 +21,7 @@ def chat_bard(
     max_output_tokens = 256
     top_p = 0.8
     top_k = 40
-    location = "me-central1"
+    location = "us-central1"
 
     vertexai.init(project=project_id, location=location)
 
@@ -66,7 +66,7 @@ def summarize_chat(
     max_decode_steps = 256
     top_p = 0.8
     top_k = 40
-    location = "me-central1"
+    location = "us-central1"
     tuned_model_name: str = ""
 
     vertexai.init(project=project_id, location=location)
@@ -117,7 +117,7 @@ def arabic_chat_bard(
     max_output_tokens = 256
     top_p = 0.8
     top_k = 40
-    location = "me-central1"
+    location = "us-central1"
 
     vertexai.init(project=project_id, location=location)
 
@@ -163,7 +163,7 @@ def arabic_summarize_chat(
     max_decode_steps = 256
     top_p = 0.8
     top_k = 40
-    location = "me-central1"
+    location = "us-central1"
     tuned_model_name: str = ""
 
     vertexai.init(project=project_id, location=location)
